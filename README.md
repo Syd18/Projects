@@ -6,7 +6,7 @@ Few real-world optimization case were studied and solved through deploying diffe
    
     - Case 2: 
 
-(ii) Multi-objective Optimization (Unconstrained and Constrained)
+(ii) Multi-objective Optimization (Unconstrained)
     
     - Case 1:
     
