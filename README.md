@@ -1,4 +1,4 @@
-Few real-world optimization case were studied and solved through deploying different meta-heuristics algorithms (GA, PSO, DE) and direct search method (Nedler Mead)
+Few real-world optimization cases were studied and solved through deploying different meta-heuristics algorithms (GA, PSO, DE) and direct search method (Nedler Mead)
 
 (i) Single Objective Optimization (Unconstrained and Constrained) 
     
