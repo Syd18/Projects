@@ -1,0 +1,15 @@
+function [updated_population]=update_population(population,fitness)
+[row,col]=size(population);
+[~,minindex]=min(fitness); %Best fitness index
+Best=population(minindex,:); %Best solution
+[~,maxindex]=max(fitness); %Worst fitness index
+worst=population(maxindex,:); %Worst solution
+updated_population=zeros(row,col); 
+r=[0.2595,0.3793;0.9661,0.5862;0.4910,0.0813;0.5169,0.9230;0.9502,0.7856;0.0064,0.0179]
+for i=1:row
+for j=1:col
+%r=rand(1,2);
+updated_population(i,j)=population(i,j)+r(1)*(Best(i,j)-abs(population(i,j)))-r(2)*(worst(j)-abs(population(i,j)));
+end
+end
+end

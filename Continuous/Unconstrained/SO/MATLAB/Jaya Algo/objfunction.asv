@@ -1,0 +1,11 @@
+function [f]=objfunction(population)
+[row,column]=size(population);
+for i=1:row
+y=0;
+for j=1:column-1
+y=y+(100*(population(i,j)^2-population(i,j+1)-)^2+(1-population(i,j))^2)
+end
+z(i)=y;
+end
+f=z';
+end
